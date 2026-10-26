@@ -1,14 +1,14 @@
 {
   "name": "pf03_a1",
   "version": "1.0.0",
-  
   "description": "",
   "main": "index.js",
   "directories": {
     "test": "tests"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+     "test": "vitest run",
+     "test:watch": "vitest"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/ddjunior99/PF03_A1/issues"
   },
-  "homepage": "https://github.com/ddjunior99/PF03_A1#readme"
+  "homepage": "https://github.com/ddjunior99/PF03_A1#readme",
+  "devDependencies": {
+    "vitest": "^5.0.5"
+  }
 }
