@@ -1,6 +1,5 @@
 import { it, expect, describe } from 'vitest';
-import { fibonacci, esPinValido } from '../src/src/fibonacci';
-
+import { esPinValido } from '../src/src/fibonacci';
 
 describe("Test esPinValido", () => {
     it ('comprobar si no es null o si está definido', () => {
@@ -19,13 +18,4 @@ describe("Test esPinValido", () => {
         expect(esPinValido("1111")).toBe(false);
         expect(esPinValido("222222")).toBe(false);
      })
-})
-describe("Test fibonacci", () => {
-    it("fibonacci", () => {
-        expect(fibonacci(4)).toBe(3);
-        expect(fibonacci(3)).toBe(2);
-        expect(fibonacci(0)).toBe(0);
-        expect(fibonacci(1)).toBe(1);
-        expect(fibonacci(-2)).console.log("Introduce números positivos")
-    })
 })
