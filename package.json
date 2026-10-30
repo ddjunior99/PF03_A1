@@ -8,12 +8,8 @@
     "test": "tests"
   },
   "scripts": {
-<<<<<<< HEAD
    "test": "vitest run",
    "test:watch": "vitest"
-=======
-    "test": "vitest"
->>>>>>> a819a3b0300fb21e47d25b67ed288be3dd994f2e
   },
   "repository": {
     "type": "git",

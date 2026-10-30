@@ -1,5 +1,5 @@
 import { it, expect, describe } from 'vitest';
-import { fibonacci, esPinValido } from '../src/src/calc';
+import { fibonacci, esPinValido } from '../src/src/fibonacci';
 
 
 describe("Test esPinValido", () => {
