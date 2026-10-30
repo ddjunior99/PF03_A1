@@ -1,0 +1,26 @@
+{
+  "name": "pf03_a1",
+  "version": "1.0.0",
+  
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+   "test": "vitest run",
+   "test:watch": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddjunior99/PF03_A1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/ddjunior99/PF03_A1/issues"
+  },
+  "homepage": "https://github.com/ddjunior99/PF03_A1#readme"
+}
