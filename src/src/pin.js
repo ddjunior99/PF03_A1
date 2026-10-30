@@ -1,8 +1,6 @@
 
 
-function fibonacci(n){
 
-};
 
 function esPinValido(pin){
     
@@ -11,7 +9,7 @@ function esPinValido(pin){
 
 
 
-export {fibonacci,
+export {
     esPinValido
 }
 
