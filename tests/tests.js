@@ -19,7 +19,7 @@ describe("Test esPinValido", () => {
         expect(esPinValido("1111")).toBe(false);
         expect(esPinValido("222222")).toBe(false);
      })
-    })
+})
 describe("Test fibonacci", () => {
     it("fibonacci", () => {
         expect(fibonacci(4)).toBe(3);
