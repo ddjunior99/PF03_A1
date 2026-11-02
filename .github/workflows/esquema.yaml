@@ -6,7 +6,8 @@ on:
  - development
  - feature-tests
  - feature-code
- - 'impl-*'
+ - impl-fibonacci
+ - impl-pin
  pull_request:
  branches: [feature-code, development, main]
 permissions:
